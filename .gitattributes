@@ -1,0 +1,34 @@
+# Normalize text files to use LF (Unix) line endings
+* text=auto eol=lf
+
+# Specify languages for Jupyter Notebooks
+*.ipynb linguist-language=Python
+*.ipynb linguist-language=Bash
+*.ipynb linguist-language=Markdown
+
+# Other language overrides
+*.py linguist-language=Python
+*.sh linguist-language=Shell
+*.R linguist-language=R
+*.md linguist-language=Markdown
+
+# Mark image files as binary
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.gif binary
+
+# Mark other binary files
+*.pdf binary
+*.zip binary
+*.tar.gz binary
+
+# Treat custom file extensions as text
+*.txt text
+*.csv text
+*.tsv text
+
+# Handle specific file types
+*.sh text eol=lf
+*.py text eol=lf
+*.md text eol=lf
