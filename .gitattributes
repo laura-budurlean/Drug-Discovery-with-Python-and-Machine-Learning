@@ -1,10 +1,8 @@
+*.ipynb linguist-detectable=true
+*.ipynb linguist-language=Jupyter Notebook
+
 # Normalize text files to use LF (Unix) line endings
 * text=auto eol=lf
-
-# Specify languages for Jupyter Notebooks
-*.ipynb linguist-language=Python
-*.ipynb linguist-language=Bash
-*.ipynb linguist-language=Markdown
 
 # Other language overrides
 *.py linguist-language=Python
